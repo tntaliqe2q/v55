@@ -207,7 +207,7 @@ async def _(event):
 async def _(event):
     if ispay2[0] == "yes":
         await event.edit(tele_checker2)
-# هنا حلم لاتغير حقوق  طيز
+# هنا اجازه لاتغير حقوق  طيز
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.صيد (.*)"))
@@ -251,11 +251,11 @@ async def _(event):
                     await event.client.send_message(event.chat_id, f'''
 ┏━━━━━┓
 
-● @H_P_K ●
+● @p9i_u ●
 
 ● (@{username}) ●
 
-● @V_C_T ●
+● @Vlod2 ●
 
 ┗━━━━━┛
 
@@ -317,11 +317,11 @@ async def _(event):
                         await event.client.send_message(event.chat_id, f'''
 ┏━━━━━┓
 
-● @H_P_K ●
+● @p9i_u ●
 
 ● (@{username}) ●
 
-● @V_C_T ●
+● @Vlod2 ●
 
 ┗━━━━━┛
     ''')
@@ -357,11 +357,11 @@ async def _(event):
 
 ┏━━━━━┓
 
-● @H_P_K ●
+● @p9i_u ●
 
 ● (@{username}) ●
 
-● @V_C_T ●
+● @Vlod2 ●
 
 ┗━━━━━┛
 
