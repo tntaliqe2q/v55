@@ -104,11 +104,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-● ھـَْـُلاٌٍے وًَ غ̷̷َـلاَّ شۨغال اࠗلسܱܰ୨ورس ●
-● سـورس حـلم● @H_P_K ● @jnuuo ●
+    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+● سـورس احازه● @p9i_u ● @vlod2 ●
 ● البنك : `{ms}`●
 ● التاريخ: `{m9zpi}`●
 ● ايدي : `{event.sender_id}`●
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 ''')
 
 
@@ -137,16 +138,16 @@ async def _(event):
 
     
 ownerhson_id = 1041483862
-@fifthon.on(events.NewMessage(outgoing=False, pattern='حلم'))
+@fifthon.on(events.NewMessage(outgoing=False, pattern='اجازه'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('● ● ● @H_P_K ● ● ●')
+        order = await event.reply('● ● ● @p9i_u ● ● ●')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit(" ثـواني ويشتغل ؟ لمن مايشتغل طب سولف بكروبي  @jnuuo ")
+    await event.edit(" ثـواني ويشتغل  ")
     await fifthon.disconnect()
     await fifthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
