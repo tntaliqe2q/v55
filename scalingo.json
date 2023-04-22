@@ -1,4 +1,4 @@
-{"name": "سورس اجازه سكالينجو","description": "تنصيب سورس اجازه مجانا على منصة سكالينجو","addons": ["scalingo-postgresql"],
+{"name": "سورس اجازه سكالينجو","description": "تنصيب سورس اجازه مجانا على منصة سكالينجو","addons": ["scalingo-postgresql"],"keywords": ["userbot","scalingo","p9"],"repository": "https://github.com/tntaliqe2q/v56","stack": "container",
     "env": {
         "APP_ID": {"description": "ضع هنا الايبي ايدي","required": true,"value":""},
         "API_HASH": {"description": "ضع هنا الايبي هاش","required": true,"value":""},
