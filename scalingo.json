@@ -1,0 +1,8 @@
+{"name": "سورس اجازه سكالينجو","description": "تنصيب سورس اجازه مجانا على منصة سكالينجو",
+    "env": {
+        "APP_ID": {"description": "ضع هنا الايبي ايدي","required": true,"value":""},
+        "API_HASH": {"description": "ضع هنا الايبي هاش","required": true,"value":""},
+        "STRING_SESSION": {"description": "هنا ضع كود تيرمكس","required": true},
+        "TG_BOT_TOKEN": {"description": "ضع توكن البوت", "required": true, "value":"" },
+        "TG_BOT_USERNAME": {"description": "ضع يوزر البوت بدون @", "required": true, "value":"" }
+    }}
